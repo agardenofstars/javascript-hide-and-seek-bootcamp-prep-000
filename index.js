@@ -1,16 +1,12 @@
 function getFirstSelector(selector) {
   
-  var firstElement = document.querySelectorAll(':first-child');
-  
-  return firstElement;
+  return document.querySelectorAll(':first-child');
   
 }
 
 function nestedTarget() {
   
-  var nestedElement = document.querySelectorAll('#nested .target');
-  
-  return nestedElement;
+  return document.querySelectorAll('#nested .target');
   
 }
 

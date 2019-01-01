@@ -27,6 +27,10 @@ function increaseRankBy(n){
     }
   
   }
+  
+  for (let i = 0; i < rankedLists.length; i++) {
+    ranks[i].innerHTML = parseInt(ranks[i].innerHTML) + n;
+  }
 
 }
 

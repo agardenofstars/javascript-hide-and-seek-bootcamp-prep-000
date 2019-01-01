@@ -1,6 +1,6 @@
 function getFirstSelector(selector) {
   
-  return document.querySelectorAll(':first-child');
+  return document.querySelector(selector);
   
 }
 
